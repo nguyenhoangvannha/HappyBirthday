@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnWellcome = (ImageButton) findViewById(R.id.btn_wellcome);
         Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/UVNBucThu.TTF");
         txtWellcome.setTypeface(typeface);
-        mediaPlayer = MediaPlayer.create(this, R.raw.thunder);
+        mediaPlayer = MediaPlayer.create(this, R.raw.thelazysong);
     }
 
     @Override
